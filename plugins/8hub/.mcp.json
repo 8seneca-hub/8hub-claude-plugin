@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "8hub": {
+      "type": "http",
+      "url": "${user_config.hub_url}/api/hub/v1/mcp/feedback",
+      "headers": { "Authorization": "Bearer ${user_config.token}" }
+    }
+  }
+}
