@@ -8,7 +8,7 @@ Tools: `whoami`, `list_operations`, `call_operation`.
 
 ```
 /plugin marketplace add 8seneca-hub/8hub-claude-plugin
-/plugin install 8hub@8seneca
+/plugin install 8hub@8seneca-hub
 ```
 
 Then run `/mcp`, pick **8hub** and sign in with your 8seneca Google account. 8hub shows what Claude asks to
