@@ -1,8 +1,10 @@
 {
   "name": "8hub",
-  "version": "0.1.0",
-  "description": "Connect Claude to 8hub: list, read and update the status of feedback reports.",
-  "author": { "name": "8seneca" },
+  "version": "0.2.0",
+  "description": "Connect Claude to 8hub People, Hub and Finance. Sign in with your 8seneca Google account; Claude reads only what you can read.",
+  "author": {
+    "name": "8seneca"
+  },
   "homepage": "https://app.hub-test.8seneca.com/hub",
   "userConfig": {
     "hub_url": {
@@ -10,13 +12,6 @@
       "title": "8hub URL",
       "description": "Origin of your 8hub deployment, no trailing slash.",
       "default": "https://app.hub-test.8seneca.com"
-    },
-    "token": {
-      "type": "string",
-      "title": "8hub Claude access token",
-      "description": "Ask an 8hub admin: Settings > Feedback > Claude access > New key.",
-      "required": true,
-      "sensitive": true
     }
   }
 }

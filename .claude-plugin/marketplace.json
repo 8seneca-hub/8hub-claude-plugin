@@ -1,12 +1,16 @@
 {
   "name": "8seneca",
-  "owner": { "name": "8seneca" },
-  "metadata": { "description": "Claude plugins for 8seneca's 8hub platform." },
+  "owner": {
+    "name": "8seneca"
+  },
+  "metadata": {
+    "description": "Claude plugins for 8seneca's 8hub platform."
+  },
   "plugins": [
     {
       "name": "8hub",
       "source": "./plugins/8hub",
-      "description": "Connect Claude to 8hub: read and triage feedback reports.",
+      "description": "Connect Claude to 8hub People, Hub and Finance with your own 8seneca sign-in.",
       "category": "productivity"
     }
   ]
