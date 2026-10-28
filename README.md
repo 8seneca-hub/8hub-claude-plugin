@@ -2,7 +2,7 @@
 
 Claude Code plugin that connects Claude to [8hub](https://app.hub-test.8seneca.com/hub): People, Hub and Finance.
 
-Tools: `whoami`, `list_operations`, `call_operation`.
+Tools: `whoami`, `list_operations`, `call_operation` (read), `change_operation` (write).
 
 ## Install
 
@@ -16,8 +16,10 @@ read; untick anything you don't want to share.
 
 ## What Claude can and cannot do
 
-- It sees only what you can see in 8hub, and only to read.
-- It never approves, pays or changes anything, and never sees salary, pay, bonus or personal documents.
+- It acts as you: it sees and does only what your 8hub account can, in the areas you ticked on the consent page
+  (for example, request leave, answer a demand).
+- Claude Code asks before each `change_operation` call unless you allow it.
+- It never passes a hard stop (final approvals, releasing money) and never sees salary, pay, bonus or cost.
 - Disconnect any time in 8hub: *My settings › Connected apps*. Access ends after 90 days at most.
 
 It connects to the test environment (`https://app.hub-test.8seneca.com`).

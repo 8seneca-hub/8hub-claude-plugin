@@ -1,7 +1,7 @@
 {
   "name": "8hub",
-  "version": "0.2.1",
-  "description": "Connect Claude to 8hub People, Hub and Finance. Sign in with your 8seneca Google account; Claude reads only what you can read.",
+  "version": "0.3.0",
+  "description": "Claude acts in 8hub People, Hub and Finance as you: read, request leave, answer demands. Sign in with your 8seneca Google account.",
   "author": {
     "name": "8seneca"
   },
