@@ -2,7 +2,7 @@
   "mcpServers": {
     "8hub": {
       "type": "http",
-      "url": "${user_config.hub_url}/api/mcp"
+      "url": "https://app.hub-test.8seneca.com/api/mcp"
     }
   }
 }
