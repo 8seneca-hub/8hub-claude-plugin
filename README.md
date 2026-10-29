@@ -43,7 +43,7 @@ where to see it in 8hub. Leave requests are under **My leave**, not My attendanc
 ## What Claude can and cannot do
 
 - It acts as you: it sees and does only what your 8hub account can, in the areas you ticked.
-- It never approves or declines, never releases money, and never sees salary, pay, bonus or cost.
+- It never passes a hard stop (final approvals, releasing money) and never sees salary, pay, bonus or cost.
   For those it tells you to open 8hub.
 - Disconnect any time in 8hub: **Connected apps** ([/settings/me/apps](https://app.hub-test.8seneca.com/settings/me/apps)). Access ends after 90 days at most.
 
