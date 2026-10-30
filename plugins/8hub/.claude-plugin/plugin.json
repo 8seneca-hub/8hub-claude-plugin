@@ -1,7 +1,7 @@
 {
   "name": "8hub",
-  "version": "0.4.0",
-  "description": "Claude acts in 8hub People, Hub and Finance as you: read, request leave, answer demands. Sign in with your 8seneca Google account.",
+  "version": "0.5.0",
+  "description": "Claude acts in 8hub People, Hub and Finance as you: everything your role allows; hard stops hand off to 8hub. Sign in with your 8seneca Google account.",
   "author": {
     "name": "8seneca"
   },

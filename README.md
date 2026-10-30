@@ -33,6 +33,8 @@ Just ask. Examples:
 | "Withdraw my leave request L-2026-0314" | Confirms, then withdraws |
 | "Who is off in my team this week?" | Reads the team calendar |
 | "What demands are waiting for me?" | Lists them |
+| "Approve Lan's leave for Friday" (team lead) | Shows the request, asks you to confirm, approves |
+| "Void invoice INV-0042" (finance) | Prepares it, then gives you the 8hub link to confirm the void yourself |
 
 Claude asks every choice as a question with options (leave type, approver, CC, final "Send it").
 Press **Enter** to take the recommended option, or pick another with the arrow keys.
@@ -42,9 +44,10 @@ where to see it in 8hub. Leave requests are under **My leave**, not My attendanc
 
 ## What Claude can and cannot do
 
-- It acts as you: it sees and does only what your 8hub account can, in the areas you ticked.
-- It never passes a hard stop (final approvals, releasing money) and never sees salary, pay, bonus or cost.
-  For those it tells you to open 8hub.
+- It acts as you: it can do what your 8hub account can, in the areas you ticked, and nothing more.
+- Hard stops (final approvals, releasing money, hiring, leavers, closing a project): Claude prepares them and gives
+  you a link; you finish them in 8hub with your own confirmation.
+- It never sees salary, pay, bonus or cost.
 - Disconnect any time in 8hub: **Connected apps** ([/settings/me/apps](https://app.hub-test.8seneca.com/settings/me/apps)). Access ends after 90 days at most.
 
 ## Troubleshooting
